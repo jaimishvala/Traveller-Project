@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.container {
+    max-width: 137rem;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*************Header-Section************/
+header {
+    padding-top: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 6.7rem;
+}
+
+header nav ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+    z-index: 9;
+}
+
+header .search i {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.sub-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #878787;
+}
+
+/**************************************/
+
+/*************Package-Section***********/
+#package {
+    background-image: url(/assets/images/hero-banner.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#package::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#package h1 {
+    padding-top: 35.2rem;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#package ul {
+    margin-left: 58rem;
+    display: flex;
+}
+
+#package ul li {
+    margin: 0 10px 0 0;
+}
+
+#package ul li a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/**************************************/
+
+
+/***********Popular-Section************/
+#popular {
+    margin-top: 17.8rem;
+}
+
+.desti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 54rem;
+}
+
+.desti .sub-title{
+    margin-top: 1.4rem;
+}
+
+.desti #more {
+    border: none;
+    background: #000;
+    border-radius: 3rem;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/**************************************/

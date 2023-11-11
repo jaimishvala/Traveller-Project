@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Home</title>
+
+    <style>
+        .top {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            display: none;
+            background-color: red;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .top i {
+            margin: 14px 17px;
+            font-size: 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="/images/Logo.png" alt="">
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Package <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Destination <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="#" class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-data">
+                    <h1>Make in <br> your journey.</h1>
+
+                    <p>
+                        Explore the world with what you love beautiful <br> natural beauty.
+                    </p>
+
+                    <form action="#">
+                        <div class="search-box">
+                            <select name="location" id="location">
+                                <option value="0">Location</option>
+                                <option value="surat">Surat</option>
+                                <option value="baroda">Baroda</option>
+                                <option value="vapi">Vapi</option>
+                            </select>
+                            <select name="data" id="data">
+                                <option value="0">Data</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select name="people" id="people">
+                                <option value="0">Poeple</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+
+                            <input type="submit" id="Submit" value="Explore now">
+                        </div>
+                    </form>
+
+                    <p><span>Popular Place :</span> Bali, Istanbul, Rome, Paris.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="explore">
+            <div class="container">
+                <h2 class="main-title">Explore new worlds with exotic natural scenery</h2>
+                <p class="sub-title">Explore the world with what you love beautiful natural beauty.</p>
+
+                <!-- Swiper -->
+                <div class="swiper explore-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="explore-slide">
+                                <div class="explore-img">
+                                    <img src="/images/explore.1.jpg" alt="">
+                                </div>
+
+                                <div class="explore-data">
+                                    <div class="explore-cercle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="explore-slide">
+                                <div class="explore-img">
+                                    <img src="/images/explore.2.jpg" alt="">
+                                </div>
+
+                                <div class="explore-data">
+                                    <div class="explore-cercle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="explore-slide">
+                                <div class="explore-img">
+                                    <img src="/images/explore.3.jpg" alt="">
+                                </div>
+
+                                <div class="explore-data">
+                                    <div class="explore-cercle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="explore-slide">
+                                <div class="explore-img">
+                                    <img src="/images/explore.1.jpg" alt="">
+                                </div>
+
+                                <div class="explore-data">
+                                    <div class="explore-cercle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="choose">
+            <div class="container">
+                <h2 class="main-title">Why choose Us?</h2>
+                <p class="sub-title">our services have been trusted by world travelers.</p>
+
+
+                <div class="container1">
+                    <div class="swiper choose-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="choose-slide">
+                                    <div class="choose-img">
+                                        <img src="/images/choose1.png" alt="">
+                                    </div>
+                                    <div class="choose-data">
+                                        <h3>Best Service</h3>
+                                        <p>our service is reliable and convenient, our service is quality.</p>
+
+                                        <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="choose-slide">
+                                    <div class="choose-img">
+                                        <img src="/images/choose2.png" alt="">
+                                    </div>
+                                    <div class="choose-data">
+                                        <h3>Price Guarantee</h3>
+                                        <p>our service is reliable and convenient, our service is quality.</p>
+
+                                        <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="choose-slide">
+                                    <div class="choose-img">
+                                        <img src="/images/choose3.png" alt="">
+                                    </div>
+                                    <div class="choose-data">
+                                        <h3>Handpicked Hotels</h3>
+                                        <p>our service is reliable and convenient, our service is quality.</p>
+
+                                        <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="choose-slide">
+                                    <div class="choose-img">
+                                        <img src="/images/choose1.png" alt="">
+                                    </div>
+                                    <div class="choose-data">
+                                        <h3>Best Service</h3>
+                                        <p>our service is reliable and convenient, our service is quality.</p>
+
+                                        <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </section>
+
+        <section id="partner">
+            <div class="container">
+                <h2 class="main-title">Our tour partner</h2>
+                <p class="sub-title">There are many variation of passage of lorem ipsum available but <br> the majority
+                    have suffered alteration </p>
+
+                <div class="partner-box">
+                    <div class="partner-img">
+                        <img src="/images/partner1.png" alt="">
+                    </div>
+                    <div class="partner-img">
+                        <img src="/images/partner2.png" alt="">
+                    </div>
+                    <div class="partner-img">
+                        <img src="/images/partner3.png" alt="">
+                    </div>
+                    <div class="partner-img">
+                        <img src="/images/partner4.png" alt="">
+                    </div>
+                    <div class="partner-img">
+                        <img src="/images/partner5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="client">
+            <div class="client-container">
+                <h5>TESTIMONIAL</h5>
+                <h2 class="main-title">What our client say</h2>
+                <p class="sub-title">Create a visual identity for your company and a <br> overall brand</p>
+
+                <div class="nav">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="swiper client-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="client-slide">
+                                <div class="client-img">
+                                    <img src="/images/client-1.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <h3>Sara Jay</h3>
+                                    <h4>Treveller</h4>
+                                    <div class="star-img">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Before we define any approach, we need to deline the brands overall goal.We then
+                                        need to dive.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="client-slide">
+                                <div class="client-img">
+                                    <img src="/images/client-2.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <h3>Cristian Daniel</h3>
+                                    <h4>Treveller</h4>
+                                    <div class="star-img">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Before we define any approach, we need to deline the brands overall goal. We
+                                        then need to dive.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="client-slide">
+                                <div class="client-img">
+                                    <img src="/images/client-3.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <h3>Kausar Hasan</h3>
+                                    <h4>Treveller</h4>
+                                    <div class="star-img">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Before we define any approach, we need to deline the brands overall goal.We then
+                                        need to dive.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="client-slide">
+                                <div class="client-img">
+                                    <img src="/images/client-1.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <h3>Sara Jay</h3>
+                                    <h4>Treveller</h4>
+                                    <div class="star-img">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Before we define any approach, we need to deline the brands overall goal.We then
+                                        need to dive.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="price">
+            <div class="container">
+                <h2 class="main-title">Subcribe to get special price</h2>
+                <p class="sub-title"> Dont wanna miss something? subscribe right now and get special <br> promotion and
+                    monthly newsletter</p>
+                <form action="#">
+                    <div class="price-box">
+                        <input class="email" type="text" name="email" placeholder="Type your  email here">
+
+                        <input class="subscribe" type="submit" name="submit" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="traveller">
+                    <img src="/images/footer-logo.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Quisque pharetra condimentum.
+                    </p>
+                </div>
+
+                <div class="contact">
+                    <h3>Contact Information</h3>
+
+                    <ul>
+                        <li>
+                            <a href="#"> <i class="fa-solid fa-location-dot"></i>732 Despard St, Atlanta </a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="fa-solid fa-envelope"></i> +97 888 8888 </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-phone"></i> info@traveller.com </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="Quick">
+                    <h3>Quick Link</h3>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Tours</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="follow">
+                    <h3>Follow Us</h3>
+                    <a class="face" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="twi" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="you" href="#"> <i class="fa-brands fa-youtube"></i></a>
+                    <a class="insta" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2021 UNQ Design</p>
+        </div>
+
+    </footer>
+
+    <div class="top">
+        <i class="fa-solid fa-arrow-up" style="color: #0b0c0e;"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <!-- jQuery:CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".explore-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        var swiper2 = new Swiper(".choose-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        var swiper3 = new Swiper(".client-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 3.33,
+                    spaceBetween: 0,
+                },
+            },
+        });
+    </script>
+
+    <!-- jQuery -->
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                let x = $(window).scrollTop()
+                console.log(x);
+
+                if (x > 200) {
+                    $(".top").addClass("show")
+                } else {
+                    $(".top").removeClass("show")
+                }
+            });
+
+            $(".top").click(function () {
+                $("html,body").animate({
+                    scrollTop: 0
+                });
+            });
+
+        });
+    </script>
+
+
+
+</body>
+
+</html>
